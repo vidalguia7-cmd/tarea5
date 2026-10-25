@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+     
+     <style>
+         * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+         body { background: #fff; padding: 30px; }
+         .contenedor { max-width: 2000px; margin: 0 auto; border: 3px solid #999; padding: 0; }
+         /* === ENCABEZADO CON ESCUDOS Y TÍTULO === */
+         .fila-titulo { display: flex; align-items: center; border-bottom: 1px solid #999; }
+         .celda-escudo { width: 100px; padding: 10px; text-align: center; border-right: 1px solid #999; }
+         .celda-escudo-der { width: 100px; padding: 10px; text-align: center; border-left: 1px solid #999; }
+         .escudo { width: 70px; height: auto; }
+         .celda-centro { flex: 1; text-align: center; padding: 1px 5px; }
+         .celda-centro h1 { font-size: 15px; font-weight: bold; }
+         .celda-centro h2 { font-size: 15px; font-weight: normal; margin-top: 5px; }
+         /* === TABLA DE DATOS EXACTA === */
+         .tabla-datos { width: 100%; border-collapse: collapse; }
+         .tabla-datos td { border: 2px solid #999; padding: 8px 10px; font-size: 14px; }
+         .tabla-datos td:first-child { font-weight: bold; background: #f9f9f9; width: 110px; }
+         /* === CONTENIDO === */
+         .contenido { padding: 20px; }
+         h3 { text-align: center; margin: 10px 0 20px 0; font-size: 17px; text-transform: uppercase; }
+         h4 { margin: 18px 0 8px 0; font-size: 15px; }
+         p, li { font-size: 14px; line-height: 1.7; margin: 4px 0; }
+         ul, ol { margin-left: 25px; margin-bottom: 12px; }
+         pre { background: #f4f4f4; border: 1px solid #ccc; padding: 12px; margin: 10px 0; font-size: 13px; border-radius: 3px; overflow-x: auto; }
+         code { font-family: Consolas, monospace; }
+         .espacio { border-bottom: 1px solid #333; display: inline-block; width: 250px; margin-left: 8px; vertical-align: bottom; }
+     </style>
+ </head>
+ <body>
+     <div class="contenedor">
+         <!-- === FILA DE TÍTULO IGUAL A LA IMAGEN === -->
+         <div class="fila-titulo">
+             <div class="celda-escudo">
+                 
+             </div>
+             <div class="celda-centro">
+                 <h1>UNIVERSIDAD AUTÓNOMA "TOMÁS FRÍAS"</h1>
+                 <h2>INGENIERÍA DE SISTEMAS</h2>
+             </div>
+             <div class="celda-escudo-der">
+             
+             </div>
+         </div>
+         <!-- === TABLA DE DATOS EXACTA === -->
+         <table class="tabla-datos">
+             <tr>
+                 <td>ESTUDIANTE:</td>
+                 <td colspan="3">Guia Colque Juan Vidal</td>
+             </tr>
+             <tr>
+                 <td>DOCENTE:</td>
+                 <td>Ing. Choque Matos Javier</td>
+                 <td>MATERIA:</td>
+                 <td>SIS-313 G1</td>
+             </tr>
+             <tr>
+                 <td>AUXILIAR:</td>
+                 <td>Univ. Alex Sander Lopez Orcko</td>
+                 <td>FECHA:</td>
+                 <td>25/10/2026</td>
+             </tr>
+             <tr>
+                 <td colspan="3"></td>
+                 <td>PRÁCTICA N.</td>
+                 <td>5</td>
+             </tr>
+         </table>
+         <!-- === CONTENIDO DE LA PRÁCTICA === -->
+         <div class="contenido">
+            
+
+
+
+    <!-- Encabezado de la página -->
+    <header>
+        
+        <header>
+        <h1>Juan Vidal Guía Colque</h1>
+        <p>Sobre mí: Mi nombre es Juan Vidal Guía Colque, soy estudiante de la carrera de Ingeniería de Sistemas apasionado por el mundo de la tecnología y la programacion. Me considero una persona responsable, curiosa y con muchas ganas de aprender cada día algo nuevo. Disfruto mucho investigar cómo funcionan las cosas, especialmente todo lo relacionado con el desarrollo de software, la programación y el diseño de páginas web. Mi objetivo principal es formarme como un excelente profesional para así poder contribuir con soluciones tecnológicas que ayuden a resolver problemas en mi comunidad. Agradezco la oportunidad de realizar esta práctica, ya que me permite reforzar mis conocimientos en el uso de lenguajes de marcado y estilos, fundamentales para mi formación académica.</p>
+    </header
+    <div class="contenedor"></div>
+    <h1>Mis Pasatiempos</h1>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <h4> Leer</h4>
+                <p>Me gusta leer libros sobre tecnología, programación y crecimiento personal para aprender cosas nuevas cada día.</p>
+            </div>
+            <div class="tarjeta">
+                <h4> Programar</h4>
+                <p>Disfruto practicar la programación y crear pequeños proyectos para mejorar mis habilidades en el desarrollo de software.</p>
+            </div>
+            <div class="tarjeta">
+                <h4> Deportes</h4>
+                <p>En mi tiempo libre practico fútbol, lo que me ayuda a mantener sano, disciplinado y trabajar en equipo.</p>
+            </div>
+        </div>
+
+    <!-- Contenido principal -->
+    <div class="contenedor">
+        <h2>Materias que curso</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <h4>Programación de diseño</h4>
+                <p>Aprendizaje de HTML, CSS y JavaScript</p>
+            </div>
+            <div class="tarjeta">
+                <h4>Base de Datos</h4>
+                <p>Diseño y gestión de bases de datos relacionales</p>
+            </div>
+            <div class="tarjeta">
+                <h4>Modelos Administrativos</h4>
+                <p>Procesos administrativos y gestión empresarial</p>
+            </div>
+        </div>
+
+        <h2>Horario de Clases</h2>
+        <table>
+            <tr>
+                <th>Día</th>
+                <th>Hora de inicio</th>
+                <th>Hora de fin</th>
+                <th>Materia</th>
+            </tr>
+            <tr>
+                <td>Lunes</td>
+                <td>08:00</td>
+                <td>10:00</td>
+                <td>Programación de diseño</td>
+            </tr>
+            <tr>
+                <td>Martes</td>
+                <td>10:00</td>
+                <td>12:00</td>
+                <td>Base de Datos</td>
+            </tr>
+            <tr>
+                <td>Miércoles</td>
+                <td>08:00</td>
+                <td>09:30</td>
+                <td>Modelos Administrativos</td>
+            </tr>
+            <tr>
+                <td>Jueves</td>
+                <td>14:00</td>
+                <td>16:00</td>
+                <td>Programaciónde diseño</td>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <td>08:00</td>
+                <td>10:00</td>
+                <td>Base de Datos</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

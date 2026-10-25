@@ -1,0 +1,107 @@
+/* ========== ESTILO GENERAL DE LA PÁGINA ========== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #eff5f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* ========== ENCABEZADO ========== */
+header {
+    background-color: #a8359f;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0 0 15px 0;
+}
+
+header p {
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* ========== CONTENEDOR PRINCIPAL ========== */
+.contenedor {
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 1000px;
+}
+
+/* ========== TÍTULOS h2 ========== */
+h2 {
+    color: #1f3a5f;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* ========== TARJETAS DE MATERIAS ========== */
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.tarjeta {
+    background-color: #f4c542;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.tarjeta:hover {
+    background-color: #e0555a;
+    color: white;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+}
+
+.tarjeta h3 {
+    margin-top: 0;
+}
+
+/* ========== TABLA DE HORARIO ========== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+th {
+    background-color: #1f3a5f;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #d4e4f7;
+}
+
+tr:hover {
+    background-color: #ffe9a8;
+}
+
+/* ========== PIE DE PÁGINA ========== */
+footer {
+    background-color: #1f3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
